@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+<meta name="google-signin-client_id" content="565811623395-437nfvp1c12oh3r6l6ht22bbufdmdb77.apps.googleusercontent.com">
+
+</head>
+<body>
+    <div class="login-container">
+        <div class="left-section">
+            <h1>Success starts here</h1>
+            <ul>
+                <li>Over 700 categories</li>
+                <li>Quality work done faster</li>
+                <li>Access to talent and businesses across the globe</li>
+            </ul>
+        </div>
+        <div class="right-section">
+            <h2>Sign in to your account</h2>
+            <p>Don't have an account? <a href="#">Join here</a></p>
+            <button class="login-btn google" onclick="loginWithGoogle()">Continue with Google</button>
+            <button class="login-btn email" onclick="loginWithEmail()">Continue with email/username</button>
+            <div class="divider"><span>OR</span></div>
+            <div class="social-buttons">
+                <button class="login-btn apple" onclick="loginWithApple()">Apple</button>
+                <button class="login-btn facebook" onclick="loginWithFacebook()">Facebook</button>
+            </div>
+            <p class="terms">By joining, you agree to the <a href="#">Terms of Service</a> and to occasionally receive emails from us. Please read our <a href="#">Privacy Policy</a> to learn how we use your personal data.</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
